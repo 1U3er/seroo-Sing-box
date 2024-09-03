@@ -13,7 +13,7 @@ reading() { read -p "$(red "$1")" "$2"; }
 export LC_ALL=C
 USERNAME=$(whoami)
 HOSTNAME=$(hostname)
-export UUID=${UUID:-'bc97f674-c578-4940-9234-0a1da46041b9'}
+export UUID=${UUID:-'1c291977-73af-40cc-8d44-1e1b76d93473'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
@@ -402,7 +402,7 @@ EOF
 cat list.txt
 purple "\n$WORKDIR/list.txt saved successfully"
 purple "Running done!"
-yellow "Serv00|ct8老王sing-box一键四协议安装脚本(vmess-ws|vmess-ws-tls(argo)|hysteria2|tuic)\n"
+yellow "Serv00|enjoysing-box一键四协议安装脚本(vmess-ws|vmess-ws-tls(argo)|hysteria2|tuic)\n"
 echo -e "${green}issues反馈：${re}${yellow}https://github.com/eooce/Sing-box/issues${re}\n"
 echo -e "${green}反馈论坛：${re}${yellow}https://bbs.vps8.me${re}\n"
 echo -e "${green}TG反馈群组：${re}${yellow}https://t.me/vps888${re}\n"
