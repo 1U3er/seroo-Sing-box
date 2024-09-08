@@ -13,7 +13,7 @@ reading() { read -p "$(red "$1")" "$2"; }
 export LC_ALL=C
 USERNAME=$(whoami)
 HOSTNAME=$(hostname)
-export UUID=${UUID:-'1c291977-73af-40cc-8d44-1e1b76d93473'}
+export UUID=${UUID:-'f11a076a-c7ce-4441-9ad9-0cad4ccb6a2a'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
@@ -516,7 +516,7 @@ rm -rf boot.log config.json sb.log core tunnel.yml tunnel.json fake_useragent_0.
 menu() {
    clear
    echo ""
-   purple "=== Serv00|enjoy sing-box一键四合一安装脚本 ===\n"
+   purple "=== Serv00|enjoy sing-box  ===\n"
    echo -e "${green}脚本地址：${re}${yellow}https://github.com/eooce/Sing-box${re}\n"
    echo -e "${green}反馈论坛：${re}${yellow}https://bbs.vps8.me${re}\n"
    echo -e "${green}TG反馈群组：${re}${yellow}https://t.me/vps888${re}\n"
